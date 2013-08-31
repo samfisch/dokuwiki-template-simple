@@ -198,12 +198,12 @@ div.dokuwiki a.urlextern {
 }
 
 /* ---------- table of contents ---------- */
-div.dokuwiki div.toc {
+div.dokuwiki #dw__toc {
   margin-left: 1em;
   margin-top: 1.1em;
 }
 
-div.dokuwiki div.tocheader {
+div.dokuwiki #dw__toc h3.toggle {
   background-color: __background_neu__;
   font-weight: normal;
   padding-top: 0.3em;
@@ -212,22 +212,15 @@ div.dokuwiki div.tocheader {
   line-height: 100%;
 }
 
-div.dokuwiki div.tocheader img {
+div.dokuwiki #dw__toc h3.toggle img {
   margin-top: 0.1em;
 }
 
-div.dokuwiki #toc__inside {
+div.dokuwiki #dw__toc ul.toc {
   background-color: __page_background__;
 }
 
-div.dokuwiki #toc__inside ul {
-  margin: 0em;
-  padding-left: 0.8em;
-}
-
-div.dokuwiki div.breadcrumbs {
-  background: __inner_background__;
-  color: __white__;
+div.dokuwiki div.breadcrumbs { background: __inner_background__; color: __white__;
   padding-left: 0.5em;
 }
 
